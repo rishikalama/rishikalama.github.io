@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(229, 224, 218);
+}
+h2{
+    text-align: center;
+}
+.para1{
+    background-color: rgb(232, 160, 202);
+    border-style: solid;
+    border-width: 2%;
+    border-color: black;
+    color: white;
+    padding: 4%;
+}
+.pic1{
+    display: flex;
+}
+.flex{
+    flex: 50%;
+}
+.header-right{
+    float: right;
+}
+.header-left{
+    float:left;
+}
+header{
+    padding-bottom: 5%;
+    
+    
+}
+ul{
+    list-style-type: none;
+}
+
+#nav{
+    display: flex;
+    border: 4%;
+    border-color: black;
+    justify-content: space-around;
+}
