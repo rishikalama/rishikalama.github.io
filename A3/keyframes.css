@@ -1,0 +1,38 @@
+.clock{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+}
+.hour{
+    height: 300px;
+    width: 70px;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    transform: rotate(0deg);
+    transform-origin: 10px 10px;
+}
+body{
+    background-color: rgb(105, 77, 36);
+}
+
+@keyframes  rotate{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(30deg);}
+
+}
+.hour{
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.min{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 16%;
+    left: 32%;
+    transform: rotate(-90deg);
+}
